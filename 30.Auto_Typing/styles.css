@@ -1,0 +1,39 @@
+/* using roboto font*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: darksalmon;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+div {
+    position: absolute;
+    bottom: 20px;
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 10px 20px;
+    font-size: 18px;
+}
+
+input {
+    width: 50px;
+    text-align: center;
+    border: none;
+    padding: 5px;
+    font-size: 18px;
+    background-color: darksalmon;
+}
+
+input:focus {
+    outline: none;
+}

@@ -1,0 +1,42 @@
+/* using roboto font*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+:root {
+    --base: #ffc600;
+    --spacing: 10px;
+    --blur: 10px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* CSS variables declared at root scope */
+
+body {
+    background-color: #193549;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    color: #fff;
+    font-size: 50px;
+    margin: 0;
+    height: 100vh;
+}
+
+.controls {
+    margin-bottom: 50px;
+}
+
+input {
+    width: 100px;
+}
+
+.h1 {
+    color: var(--base);
+}
+
+img {
+    background: var(--base);
+    padding: var(--spacing);
+    filter: blur(var(--blur));
+}

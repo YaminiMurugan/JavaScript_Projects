@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Update Css Variables</title>
+    <!-- Font awesome using cdn link below (used for some projects )-->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" /> 
+    end of font awesome-->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h2>Update CSS Variables with <span class="h1">JS</span></h2>
+    <div class="controls">
+        <label for="spacing">Spacing</label>
+        <input id="spacing" type="range" min="0" max="200" name="spacing" value="10" data-sizing="px">
+        <label for="blur">Blur</label>
+        <input type="range" name="blur" value="10" id="blur" data-sizing="px">
+        <label for="base">Base Color</label>
+        <input type="color" id="base" name="base" value="#ffc600">
+    </div>
+    <img src="https://source.unsplash.com/7bwQXzbF6KE/800x500" id="bg">
+    <script src="script.js"></script>
+</body>
+
+</html>
